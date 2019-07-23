@@ -21,6 +21,6 @@ new_array
 end
 
 def printer(attendees)
-  batch_badge_creator.each do |attendee|
-end
+  batch_badge_creator(attendees)
+  assign_rooms(attendees)
 end
