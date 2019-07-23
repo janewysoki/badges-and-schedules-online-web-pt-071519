@@ -15,7 +15,7 @@ end
 def assign_rooms(attendees)
   new_array = []
   attendees.each_with_index do |attendee, index|
-  new_array << "Hello, #{name}! You'll be assigned to room #{index+1}!"
+  new_array << "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
 end
 new_array
 end
