@@ -21,9 +21,8 @@ new_array
 end
 
 def printer(attendees)
-  new_array = []
-  batch_badge_creator
-  assign_rooms
+  batch_badge_creator(attendees)
+  assign_rooms(index)
   
   
 end
